@@ -1,7 +1,7 @@
 import multiprocessing
 import time
 
-from multithreading.count_triplets_sum import read_numbers
+from multithreading.count_triplets_sum import read_numbers, count_triplets_sum
 
 if __name__ == '__main__':
     print('started main')
