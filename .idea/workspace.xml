@@ -161,10 +161,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_00_first_example" />
       <item itemvalue="Python.01_01_event_loop" />
       <item itemvalue="Python.02_aiohttps" />
       <item itemvalue="Python.03_async_files" />
+      <item itemvalue="Python.01_00_first_example" />
       <item itemvalue="Python.14_01_terminate_by_process" />
     </list>
     <recent_temporary>
