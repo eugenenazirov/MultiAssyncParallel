@@ -4,12 +4,12 @@ import aiofiles
 
 
 def read_large_file():
-    with open(r'..\data\big_file.txt', 'r') as f:
+    with open(r'../data/big_file.txt', 'r', encoding='utf-8') as f:
         return f.read()
 
 
 async def async_read_large_file():
-    async with open(r'..\data\big_file.txt', 'r') as f:
+    async with aiofiles.open(r'../data/big_file.txt', 'r', encoding='utf-8') as f:
         return await f.read()
 
 
