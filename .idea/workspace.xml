@@ -1,7 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="started to learn asyncio" />
+    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="add venv and interpreteur to Git">
+      <change afterPath="$PROJECT_DIR$/asyncio/02_aiohttps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asyncio/03_async_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles-0.8.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles-0.8.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles-0.8.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles-0.8.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles-0.8.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles-0.8.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/os.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/ospath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/tempfile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/tempfile/temptypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/threadpool/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/threadpool/binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/threadpool/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiofiles/threadpool/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp-3.8.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_cparser.pxd.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_find_header.pxd.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_helpers.pyi.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_helpers.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_http_parser.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_http_writer.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/_websocket.pyx.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/.hash/hdrs.py.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_cparser.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_find_header.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_find_header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_find_header.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_headers.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_helpers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_helpers.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_helpers.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_helpers.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_http_parser.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_http_parser.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_http_parser.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_http_writer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_http_writer.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_http_writer.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_websocket.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_websocket.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/_websocket.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/base_protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/client_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/client_proto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/client_ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/cookiejar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/formdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/hdrs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/http_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/http_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/http_websocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/http_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/locks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/multipart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/payload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/payload_streamer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/pytest_plugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/streams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/tcp_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/typedefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_fileresponse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_routedef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/web_ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiohttp/worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal-1.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal-1.2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal-1.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal-1.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal-1.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal-1.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/aiosignal/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout-4.0.2.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/async_timeout/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_cmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_cmp.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_funcs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_make.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_next_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_version_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/_version_info.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/converters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/exceptions.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/filters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/setters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/setters.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attr/validators.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs-21.4.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/converters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/setters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/attrs/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/assets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/cd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/cli/normalizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/md.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/charset_normalizer/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist-1.3.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist-1.3.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist-1.3.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist-1.3.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist-1.3.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist-1.3.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist/_frozenlist.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist/_frozenlist.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/frozenlist/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna-3.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna-3.3.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna-3.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna-3.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna-3.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict-6.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict-6.0.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict-6.0.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict-6.0.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict-6.0.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict-6.0.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/_abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/_multidict.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/_multidict_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/_multidict_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/multidict/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl-1.7.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl-1.7.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl-1.7.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl-1.7.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl-1.7.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl-1.7.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/__init__.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_quoting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_quoting_c.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_quoting_c.cpython-310-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_quoting_c.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_quoting_c.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_quoting_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.10/site-packages/yarl/py.typed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncio/01_01_event_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncio/01_01_event_loop.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +277,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.01_00_first_example">
+  <component name="RunManager" selected="Python.03_async_files">
     <configuration name="01_00_first_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiAssyncParallel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +291,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/01_00_first_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01_01_event_loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/01_01_event_loop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_aiohttps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/02_aiohttps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_async_files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/03_async_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,60 +383,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_03_cancelled_by_flag_with_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiAssyncParallel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Евгений\PycharmProjects\MultiAssyncParallel\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_03_cancelled_by_flag_with_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14_04_cancel_uow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiAssyncParallel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Евгений\PycharmProjects\MultiAssyncParallel\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_04_cancel_uow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.01_01_event_loop" />
+      <item itemvalue="Python.02_aiohttps" />
+      <item itemvalue="Python.03_async_files" />
       <item itemvalue="Python.01_00_first_example" />
       <item itemvalue="Python.14_01_terminate_by_process" />
-      <item itemvalue="Python.14_03_cancelled_by_flag_with_class" />
-      <item itemvalue="Python.14_04_cancel_uow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03_async_files" />
+        <item itemvalue="Python.02_aiohttps" />
+        <item itemvalue="Python.01_01_event_loop" />
         <item itemvalue="Python.01_00_first_example" />
         <item itemvalue="Python.14_01_terminate_by_process" />
-        <item itemvalue="Python.14_04_cancel_uow" />
-        <item itemvalue="Python.14_03_cancelled_by_flag_with_class" />
       </list>
     </recent_temporary>
   </component>
@@ -169,12 +423,12 @@
       <option name="project" value="LOCAL" />
       <updated>1653896135603</updated>
     </task>
-    <task id="LOCAL-00003" summary="started to learn asyncio">
-      <created>1654072266929</created>
+    <task id="LOCAL-00003" summary="add venv and interpreteur to Git">
+      <created>1654151591400</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1654072266929</updated>
+      <updated>1654151591400</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -193,7 +447,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learned how to kill process in Python" />
     <MESSAGE value="fixed inexisted func count_triplets_sum" />
-    <MESSAGE value="started to learn asyncio" />
-    <option name="LAST_COMMIT_MESSAGE" value="started to learn asyncio" />
+    <MESSAGE value="add venv and interpreteur to Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add venv and interpreteur to Git" />
   </component>
 </project>
