@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="something with workspace.xml">
-      <change afterPath="$PROJECT_DIR$/asyncio/05_01_task_api_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asyncio/05_02_task_as_completed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asyncio/05_03_task_wait.py" afterDir="false" />
+    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="add big_file.txt and venv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asyncio/03_async_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncio/03_async_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/big_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/big_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +38,65 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29sGFVIIJfwqyt5wTnGdqcFw8zO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Евгений/Documents/GitHub/MultiAssyncParallel&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.05_03_task_wait">
+  <component name="RunManager" selected="Python.03_async_files">
+    <configuration name="01_00_first_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/01_00_first_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01_01_event_loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/01_01_event_loop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="02_aiohttps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiAssyncParallel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,61 +139,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_01_task_api_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14_01_terminate_by_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiAssyncParallel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Евгений\PycharmProjects\MultiAssyncParallel\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Евгений\Documents\GitHub\MultiAssyncParallel\asyncio\05_01_task_api_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05_02_task_as_completed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiAssyncParallel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/05_02_task_as_completed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05_03_task_wait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiAssyncParallel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/05_03_task_wait.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_01_terminate_by_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,19 +161,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.01_01_event_loop" />
       <item itemvalue="Python.02_aiohttps" />
       <item itemvalue="Python.03_async_files" />
-      <item itemvalue="Python.05_01_task_api_demo" />
-      <item itemvalue="Python.05_02_task_as_completed" />
-      <item itemvalue="Python.05_03_task_wait" />
+      <item itemvalue="Python.01_00_first_example" />
+      <item itemvalue="Python.14_01_terminate_by_process" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05_03_task_wait" />
-        <item itemvalue="Python.05_02_task_as_completed" />
-        <item itemvalue="Python.05_01_task_api_demo" />
         <item itemvalue="Python.03_async_files" />
         <item itemvalue="Python.02_aiohttps" />
+        <item itemvalue="Python.01_01_event_loop" />
+        <item itemvalue="Python.01_00_first_example" />
+        <item itemvalue="Python.14_01_terminate_by_process" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654151591400</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="continue to learn asyncio">
+      <created>1654183911358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654183911358</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add big_file.txt and venv">
+      <created>1654183965716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654183965716</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,9 +236,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="learned how to kill process in Python" />
     <MESSAGE value="fixed inexisted func count_triplets_sum" />
     <MESSAGE value="add venv and interpreteur to Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add venv and interpreteur to Git" />
+    <MESSAGE value="continue to learn asyncio" />
+    <MESSAGE value="add big_file.txt and venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="add big_file.txt and venv" />
   </component>
 </project>
