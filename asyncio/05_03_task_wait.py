@@ -1,3 +1,6 @@
+# this code doesn't work correctly, there are an exception with dunder __aenter__
+
+
 import asyncio, aiohttp
 from asyncio import FIRST_COMPLETED
 from collections import namedtuple
