@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="add new lesson about 'async for' and the demo about beginners mistake while using 'async for' in their code." />
+    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="add new lesson about 'async for' and the demo about beginners mistake while using 'async for' in their code.">
+      <change afterPath="$PROJECT_DIR$/asyncio/09_03_cancel_cooperative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +58,7 @@
       <recent name="$PROJECT_DIR$/demos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07_async_for_beginners_mistake">
+  <component name="RunManager" selected="Python.09_03_cancel_cooperative">
     <configuration name="05_02_task_as_completed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiAssyncParallel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,27 +72,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/05_02_task_as_completed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="05_03_task_wait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiAssyncParallel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/05_03_task_wait.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,20 +143,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="09_03_cancel_cooperative" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/09_03_cancel_cooperative.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.06_01_wrap_event_based_model" />
       <item itemvalue="Python.07_async_for" />
       <item itemvalue="Python.07_async_for_beginners_mistake" />
+      <item itemvalue="Python.09_03_cancel_cooperative" />
       <item itemvalue="Python.05_02_task_as_completed" />
-      <item itemvalue="Python.05_03_task_wait" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.09_03_cancel_cooperative" />
         <item itemvalue="Python.07_async_for_beginners_mistake" />
         <item itemvalue="Python.07_async_for" />
         <item itemvalue="Python.06_01_wrap_event_based_model" />
         <item itemvalue="Python.05_02_task_as_completed" />
-        <item itemvalue="Python.05_03_task_wait" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654839654979</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add new lesson about 'async for' and the demo about beginners mistake while using 'async for' in their code.">
+      <created>1654840692024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654840692024</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
