@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="add big_file.txt and venv">
+    <list default="true" id="5cdb0755-131f-4e2c-a737-227eccb1442d" name="Changes" comment="synchronizing files from Mac to Win again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asyncio/03_async_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncio/03_async_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/big_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/big_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.03_async_files">
-    <configuration name="01_00_first_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MultiAssyncParallel" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/01_00_first_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.05_02_task_as_completed">
     <configuration name="01_01_event_loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiAssyncParallel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,19 +116,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_01_terminate_by_process" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_02_task_as_completed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MultiAssyncParallel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Евгений\PycharmProjects\MultiAssyncParallel\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_01_terminate_by_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/05_02_task_as_completed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_03_task_wait" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MultiAssyncParallel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/asyncio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asyncio/05_03_task_wait.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,19 +159,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.05_02_task_as_completed" />
+      <item itemvalue="Python.05_03_task_wait" />
       <item itemvalue="Python.01_01_event_loop" />
       <item itemvalue="Python.02_aiohttps" />
       <item itemvalue="Python.03_async_files" />
-      <item itemvalue="Python.01_00_first_example" />
-      <item itemvalue="Python.14_01_terminate_by_process" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.05_02_task_as_completed" />
+        <item itemvalue="Python.05_03_task_wait" />
         <item itemvalue="Python.03_async_files" />
         <item itemvalue="Python.02_aiohttps" />
         <item itemvalue="Python.01_01_event_loop" />
-        <item itemvalue="Python.01_00_first_example" />
-        <item itemvalue="Python.14_01_terminate_by_process" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654183965716</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="synchronizing files from Mac to Win">
+      <created>1654229368676</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654229368676</updated>
+    </task>
+    <task id="LOCAL-00007" summary="synchronizing files from Mac to Win again">
+      <created>1654229451314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654229451314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +254,8 @@
     <MESSAGE value="add venv and interpreteur to Git" />
     <MESSAGE value="continue to learn asyncio" />
     <MESSAGE value="add big_file.txt and venv" />
-    <option name="LAST_COMMIT_MESSAGE" value="add big_file.txt and venv" />
+    <MESSAGE value="synchronizing files from Mac to Win" />
+    <MESSAGE value="synchronizing files from Mac to Win again" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronizing files from Mac to Win again" />
   </component>
 </project>

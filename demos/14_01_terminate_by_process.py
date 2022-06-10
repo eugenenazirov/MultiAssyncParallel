@@ -6,7 +6,7 @@ from multithreading.count_triplets_sum import read_numbers, count_triplets_sum
 if __name__ == '__main__':
     print('started main')
 
-    ints = read_numbers(r'data\1Kints.txt')
+    ints = read_numbers(r'../data/1Kints.txt')
 
     p = multiprocessing.Process(target=count_triplets_sum, args=(ints,))
     p.start()

@@ -42,7 +42,7 @@ class ThreeSumTask:
 if __name__ == '__main__':
     print('started main')
 
-    ints = read_numbers(r'data\1Kints.txt')
+    ints = read_numbers(r'../data/1Kints.txt')
 
     task = ThreeSumTask(ints)
 

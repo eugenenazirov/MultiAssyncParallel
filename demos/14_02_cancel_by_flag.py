@@ -30,7 +30,7 @@ def count_triplets_sum(ints, thread_name='t'):
 if __name__ == '__main__':
     print('started main')
 
-    ints = read_numbers(r'data\1Kints.txt')
+    ints = read_numbers(r'../data/1Kints.txt')
 
     p = threading.Thread(target=count_triplets_sum, args=(ints,))
     p.start()
